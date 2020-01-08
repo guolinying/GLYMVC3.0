@@ -10,18 +10,16 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>dispacther</servlet-name>
-  	<servlet-class>com.woniuxy.servlets.MyDispatcherServlet</servlet-class>
-  	<init-param>
-  		<param-name>MVCConfig</param-name>
-  		<param-value>mvc.properties</param-value>
-  	</init-param>
-  	<!-- 必须配置为应用启动就实例化初始化 -->
-  	<load-on-startup>1</load-on-startup>
+    <servlet-name>dispacther</servlet-name>
+    <servlet-class>com.woniuxy.servlets.MyDispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>MVCConfig</param-name>
+      <param-value>mvc.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
   </servlet>
-  
   <servlet-mapping>
-  		<servlet-name>dispacther</servlet-name>
-  		<url-pattern>*.do</url-pattern>
+    <servlet-name>dispacther</servlet-name>
+    <url-pattern>*.do</url-pattern>
   </servlet-mapping>
 </web-app>
