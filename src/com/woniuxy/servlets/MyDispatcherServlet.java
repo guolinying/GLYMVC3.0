@@ -340,6 +340,7 @@ public class MyDispatcherServlet extends HttpServlet{
 		System.out.println("hhahhaha by yangguo");
 
 		System.out.println("hahahahhabyguolinying");
+		System.out.println("hahahahhabyguolinying--test");
 
 	}
 }
