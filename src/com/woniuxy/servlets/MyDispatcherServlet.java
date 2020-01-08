@@ -336,6 +336,10 @@ public class MyDispatcherServlet extends HttpServlet{
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(req, resp);
+
 		System.out.println("hhahhaha by yangguo");
+
+		System.out.println("hahahahhabyguolinying");
+
 	}
 }
